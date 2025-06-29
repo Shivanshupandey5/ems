@@ -1,15 +1,44 @@
+# Employee Management System (EMS)
 
-=======
-# React + Vite
+A modern web-based Employee Management System built using **React**, **Vite**, and **Tailwind CSS**. The system allows admins to manage employee tasks, view task statuses, and handle task-related operations such as accepting, completing, or marking tasks as failed.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔧 Tech Stack
 
-Currently, two official plugins are available:
+- ⚛️ React (with Vite)
+- 🎨 Tailwind CSS
+- 📦 Context API (for state management)
+- 🧠 Local Storage (for session and task data)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Project Structure
 
-## Expanding the ESLint configuration
+src/
+├── components/
+│ ├── Auth/
+│ ├── Dashboard/
+│ ├── TaskList/
+│ └── other/
+├── context/
+├── utils/
+├── App.jsx
+└── main.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 609c8a2 ( Initial EMS Commit)
+markdown
+Copy code
+
+## 🚀 Features
+
+- 🔐 **Login Authentication** (via context and local storage)
+- 📋 **Task Management**:
+  - View new, active, completed, and failed tasks
+  - Admin dashboard to assign tasks
+- 🧾 **Task Summary Dashboard**
+- 💡 Clean UI with Tailwind
+
+##ScreenShots:
+![image](https://github.com/user-attachments/assets/7d8c2397-1a31-4421-8056-edfaecc2aba2)
+
+![image](https://github.com/user-attachments/assets/26f8ca03-4193-4379-aec7-eebd7acab658)
+
+![image](https://github.com/user-attachments/assets/8f713894-8e0a-4690-8353-53a6da5ed9ac)
+
+![image](https://github.com/user-attachments/assets/bd909a0b-16eb-4c66-800c-9641479b419e)
