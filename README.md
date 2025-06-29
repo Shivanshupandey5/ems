@@ -35,10 +35,12 @@ Copy code
 - 💡 Clean UI with Tailwind
 
 ##ScreenShots:
-![image](https://github.com/user-attachments/assets/7d8c2397-1a31-4421-8056-edfaecc2aba2)
+-Login Page:
+![image](https://github.com/user-attachments/assets/1df9affa-d5a4-4956-a31e-296450d538ac)
 
-![image](https://github.com/user-attachments/assets/26f8ca03-4193-4379-aec7-eebd7acab658)
+-Admin Page:
+![image](https://github.com/user-attachments/assets/22c7bd54-443e-42c1-84dd-a94fd25038b4)
 
-![image](https://github.com/user-attachments/assets/8f713894-8e0a-4690-8353-53a6da5ed9ac)
 
+Employee Page:
 ![image](https://github.com/user-attachments/assets/bd909a0b-16eb-4c66-800c-9641479b419e)
