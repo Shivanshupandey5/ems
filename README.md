@@ -39,8 +39,8 @@ Copy code
 ![image](https://github.com/user-attachments/assets/1df9affa-d5a4-4956-a31e-296450d538ac)
 
 -Admin Page:
-![image](https://github.com/user-attachments/assets/22c7bd54-443e-42c1-84dd-a94fd25038b4)
-
+![image](https://github.com/user-attachments/assets/181e7625-8c5f-4378-9d21-3983f9ee76c7)
 
 Employee Page:
-![image](https://github.com/user-attachments/assets/bd909a0b-16eb-4c66-800c-9641479b419e)
+![image](https://github.com/user-attachments/assets/2c2a5e1a-e565-40c5-aa2d-c1c15fb2ec76)
+
