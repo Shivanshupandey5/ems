@@ -41,7 +41,7 @@ const Login = ({ handleLogin }) => {
 
         {/* ✅ Demo credentials section for visitors */}
         <div className='mt-6 text-sm text-gray-500 text-center'>
-          <p className='font-semibold'>🧪 Demo Credentials:</p>
+          <p className='font-semibold'>Demo Credentials:</p>
           <p><strong>Admin:</strong> admin@me.com | <strong>Password:</strong>123</p>
           <p><strong>Employee:</strong> employee1@example.com | <strong>Password:</strong>123</p>
         </div>
