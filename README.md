@@ -1,3 +1,9 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/Shivanshupandey5/ems?style=social)
+![Release](https://img.shields.io/github/v/release/Shivanshupandey5/ems)
+![Demo](https://img.shields.io/website?url=https%3A%2F%2Fshivanshupandey5.github.io%2Fems%2F)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
+
 # Employee Management System (EMS)
 
 A modern web-based Employee Management System built using **React**, **Vite**, and **Tailwind CSS**. The system allows admins to manage employee tasks, view task statuses, and handle task-related operations such as accepting, completing, or marking tasks as failed.
