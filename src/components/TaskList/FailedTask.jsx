@@ -2,7 +2,7 @@ import React from 'react';
 
 const FailedTask = ({ data }) => {
   return (
-    <div className="flex-shrink-0 w-full sm:w-[320px] p-5 bg-yellow-400 text-black rounded-xl shadow-md space-y-3 transition-all duration-200">
+<div className="flex-shrink-0 w-[300px] p-5 bg-red-400 rounded-xl">
       {/* Header: category + date */}
       <div className="flex justify-between items-center">
         <span className="bg-red-600 text-xs font-semibold px-3 py-1 rounded-full text-white">

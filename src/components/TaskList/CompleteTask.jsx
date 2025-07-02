@@ -2,7 +2,7 @@ import React from 'react';
 
 const CompleteTask = ({ data }) => {
   return (
-    <div className="flex-shrink-0 w-full sm:w-[320px] p-5 bg-blue-500 text-white rounded-xl shadow-md space-y-3 transition-all duration-200">
+<div className="flex-shrink-0 w-[300px] p-5 bg-green-400 rounded-xl">
       {/* Top: Category & Date */}
       <div className="flex justify-between items-center">
         <span className="bg-red-600 text-xs font-semibold px-3 py-1 rounded-full">
