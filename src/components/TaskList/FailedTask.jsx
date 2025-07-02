@@ -1,21 +1,30 @@
-import React from 'react'
+import React from 'react';
 
-const FailedTask = () => {
+const FailedTask = ({ data }) => {
   return (
-    <div className='flex-shrink-0 h-full w-[300px] p-5 bg-yellow-400  rounded-xl'>
-            <div className='flex justify-between items-center'>
-                <h3 className='bg-red-600  text-sm px-3 py-1 rounded'>{data.category}</h3>
-                <h4 className='text-sm'>{data.taskDate}</h4>
-            </div>
-            <h2 className='mt-5 text-2xl font-semibold'>{data.taskTitle}</h2>
-            <p className='text-sm mt-2'>
-                {data.taskDescription}
-            </p>
-            <div className='mt-6'>
-                <button className='w-full bg-red-500 rounded font-medium py-1 px-2 text-xs'>Failed</button>
-            </div>
-        </div>
-  )
-}
+    <div className="flex-shrink-0 w-full sm:w-[320px] p-5 bg-yellow-400 text-black rounded-xl shadow-md space-y-3 transition-all duration-200">
+      {/* Header: category + date */}
+      <div className="flex justify-between items-center">
+        <span className="bg-red-600 text-xs font-semibold px-3 py-1 rounded-full text-white">
+          {data.category}
+        </span>
+        <span className="text-xs text-black/80">{data.taskDate}</span>
+      </div>
 
-export default FailedTask
+      {/* Task Title */}
+      <h2 className="text-lg font-semibold line-clamp-2">{data.taskTitle}</h2>
+
+      {/* Description */}
+      <p className="text-sm text-black/90 line-clamp-4">{data.taskDescription}</p>
+
+      {/* Failed Button */}
+      <div className="pt-3">
+        <button className="w-full bg-red-600 hover:bg-red-700 transition-all text-xs font-semibold py-2 px-4 rounded-md text-white">
+          Failed
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default FailedTask;

@@ -28,14 +28,15 @@ const Header = (props) => {
   };
 
   return (
-    <div className='flex items-end justify-between'>
-      <h1 className='text-2xl font-medium'>
-        Hello <br />
-        <span className='text-3xl font-semibold'>{username} 👋</span>
-      </h1>
+    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-4 bg-[#1c1c1c] rounded-xl">
+      <div>
+        <h1 className="text-xl sm:text-2xl font-medium text-gray-200">Hello 👋</h1>
+        <h2 className="text-2xl sm:text-3xl font-semibold text-white">{username}</h2>
+      </div>
+
       <button
         onClick={logOutUser}
-        className='bg-red-600 text-base font-medium text-white px-5 py-2 rounded-sm'
+        className="bg-red-600 hover:bg-red-700 transition-all text-sm sm:text-base font-medium text-white px-4 sm:px-6 py-2 rounded-md shadow-md"
       >
         Log Out
       </button>
